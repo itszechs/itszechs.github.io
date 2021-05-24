@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Geomanist Black';
+    src: local('Geomanist Black'), local('Geomanist-Black'), url('../fonts/Geomanist-Black.woff2') format('woff2'), url('../fonts/Geomanist-Black.woff') format('woff'), url('../fonts/Geomanist-Black.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Geomanist Black', sans-serif;
+    font-style: normal;
+    color: #FFFF8D;
+}
+
+
+body {
+    background: rgb(26, 26, 26);
+    background: radial-gradient(circle, rgba(26, 26, 26, 1) 0%, rgba(16, 16, 16, 1) 100%);
+}
+
+img#avatar {
+    /*border-radius: 25%;*/
+    border-radius: 50%;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.info {
+    text-align: center;
+    font-size: 25px;
+    display: inline;
+    padding-left: 8px;
+}
+
+.icons-social {
+    padding: 16px;
+}
+
+span {
+    padding: 10px;
+}
